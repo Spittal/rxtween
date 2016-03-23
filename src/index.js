@@ -1,5 +1,5 @@
 'use strict';
-let Rx = require('rx');
+let Rx = require('rxjs');
 let {interpolate} = require('./ease-common');
 let {EasingPower2, EasingPower3, EasingPower4} = require('./ease-powers');
 let {EasingExponential} = require('./ease-exponential');

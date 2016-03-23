@@ -10,15 +10,15 @@
     "tween",
     "animation"
   ],
-  "homepage": "https://github.com/staltz/rxtween",
-  "bugs": "https://github.com/staltz/rxtween/issues",
+  "homepage": "https://github.com/spittal/rxtween",
+  "bugs": "https://github.com/spittal/rxtween/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/staltz/rxtween"
+    "url": "https://github.com/spittal/rxtween"
   },
   "main": "lib/index.js",
   "peerDependencies": {
-    "rx": "2.x.x"
+    "rxjs": "5.x.x"
   },
   "devDependencies": {
     "babel": "^5.1.10",
