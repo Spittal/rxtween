@@ -1,6 +1,6 @@
 {
   "name": "spittal-rxtween",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for creating animation-related RxJS Observables",
   "author": "Andre Staltz (http://andre.staltz.com/), Jamie Spittal",
   "license": "MIT",

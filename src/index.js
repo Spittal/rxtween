@@ -46,4 +46,4 @@ RxTween.Circ = EasingCirc;
 RxTween.Elastic = EasingElastic;
 RxTween.Sine = EasingSine;
 
-export RxTween;
+export default RxTween;
