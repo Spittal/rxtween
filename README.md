@@ -1,7 +1,13 @@
-RxTween
+Spittal RxTween
 =======
 
-[![npm version](https://badge.fury.io/js/rxtween.svg)](http://badge.fury.io/js/rxtween)
+<!-- [![npm version](https://badge.fury.io/js/rxtween.svg)](http://badge.fury.io/js/rxtween) -->
+
+### NOTE
+
+This is a fork of https://github.com/staltz/rxtween to be updated to use `rxjs5.x.x`
+
+### ENDNOTE
 
 A small helper library to create animation-related RxJS Observables. Specify a start value, an end value, the duration, and an easing function, and you get an Observable emitting the interpolated values in intervals over time.
 
@@ -18,7 +24,7 @@ RxTween has RxJS as an npm peerDependency. This means RxTween will include RxJS 
 #### Usage
 
 ```js
-import RxTween from 'rxtween';
+import { RxTween } from 'rxtween';
 
 let position$ = RxTween({
   from: 0,
@@ -41,7 +47,7 @@ let position$ = RxTween({
 
 ```
 |                    #
-|                   # 
+|                   #
 |                  #  
 |                 #   
 |                #    
@@ -69,7 +75,7 @@ let position$ = RxTween({
 ```
 |                    #
 |                     
-|                   # 
+|                   #
 |                     
 |                  #  
 |                     
@@ -97,7 +103,7 @@ let position$ = RxTween({
 |                    #
 |                     
 |                     
-|                   # 
+|                   #
 |                     
 |                  #  
 |                     
@@ -125,7 +131,7 @@ let position$ = RxTween({
 |                     
 |                     
 |                     
-|                   # 
+|                   #
 |                     
 |                     
 |                  #  
@@ -153,7 +159,7 @@ let position$ = RxTween({
 |                     
 |                     
 |                     
-|                   # 
+|                   #
 |                     
 |                     
 |                     
@@ -179,7 +185,7 @@ let position$ = RxTween({
 |                     
 |                     
 |                     
-|                   # 
+|                   #
 |                     
 |                     
 |                     
@@ -235,7 +241,7 @@ let position$ = RxTween({
 |                     
 |                     
 |                     
-|                   # 
+|                   #
 |                     
 |                     
 |                  #  
@@ -269,7 +275,7 @@ let position$ = RxTween({
 |                     
 |                     
 |                     
-|                   # 
+|                   #
 |                     
 |                     
 |                     
@@ -285,7 +291,7 @@ let position$ = RxTween({
 ```
 |                    #
 |                     
-|                   # 
+|                   #
 |                  #  
 |                     
 |                 #   

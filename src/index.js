@@ -32,7 +32,7 @@ function RxTween({
   return Rx.Observable.interval(sanitizedInterval)
     .take(totalTicks)
     .map(tick => ease(tick / totalTicks, from, to))
-    .concat(Rx.Observable.just(to));
+    .concat(Rx.Observable.of(to));
 }
 
 RxTween.Linear = {ease: interpolate};
@@ -46,4 +46,4 @@ RxTween.Circ = EasingCirc;
 RxTween.Elastic = EasingElastic;
 RxTween.Sine = EasingSine;
 
-export default RxTween;
+export RxTween;
